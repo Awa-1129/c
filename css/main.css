@@ -1,0 +1,56 @@
+* {margin: 0;padding: 0;}
+body{background-color: gray; background: url(../img/bj.mp4) no-repeat center0px;}
+video#bj{position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: 100%; background-size: cover;}
+a,li {text-decoration: none; list-style: none;}
+body {margin: 0 auto; font-family: "微软雅黑"; width: 100%; overflow: hidden;}
+body>div {margin: 0 auto;}
+
+video{width: 100%;height: 100vh; pointer-events: none; z-index: 0; display: block;}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#section0{overflow: hidden;}
+#section0 .nav{color: #000; font-weight: 600; left: -200px; width: 150px; height: 99.99vh;position: absolute; transition: 1.6s; background: url(../img/cdh.png); overflow: hidden;}
+#section0 .nav-nr {margin: 0 auto; position: relative; left: -100px; transition: 1.6s;}
+#section0 .nav-nr ul li {font-size: 18px; width: 150px; text-align: center; line-height: 150px; transition: 1s;}
+#section0 .nav-nr #z{position: relative; right: -150px; transition: 1.6s;}
+#section0 .nav-nr #x{position: relative; right: -150px; transition: 2.1s;}
+#section0 .nav-nr #v{position: relative; right: -150px; transition: 2.6s;}
+#section0 .nav-nr li:hover{background: #000;color: #ffff; transition: 1.6s;}
+#section0 .nav-nr .jt {position: relative; left: 135px;  top: -85px; transition: 1s;}
+#section0 .nav-nr .tx{position: relative; top: 35px; left: 150px; transition: 1.6s;}
+#section0 .page{height: 99.99vh; position: absolute; right: -2000px; transition: 1.6s; background: url(../img/img2.jpg);}
+#section0 .page .jt-2{position: relative; left: 100px; top: 515px; transition: 1.6s; -moz-transform: matrix(1, 0, 0, 1, 0, 0); -webkit-transform: matrix(1, 0, 0, 1, 0, 0); -o-transform:matrix(1,0,0,1,0,0);}
+#section0 .page-nr{width: 90px;margin: 0 auto;}
+#section0 .page-nr img{width: 100%; height: 100vh;}
+#section0 .page-nr .cl{position: absolute; left: 1500px; -moz-transform: matrix(-1, 0, 0, 1, 0, 0); -webkit-transform: matrix(-1, 0, 0, 1, 0, 0); -o-transform:matrix(-1,0,0,1,0,0); transition: 1.6s;}
+#section0 .banner{color: #fff; width: 100%; height: 80%; margin: 0 auto; text-align: center; font-size: 25px; font-weight: 600; display: block; transition: 0.6s;}
+#section0 .banner a{color: #fff; font-weight: 600;}
+#section0 .banner .me{padding: 5px; position: relative; top: 400px; font-size: 16px; border: 2px solid #ffffff; opacity: 0; transition: 3s;}
+
+#section1 .nav-2{font-weight: 600; left: -200px; width: 150px; height: 99.99vh;position: absolute; transition: 1.6s; background: url(../img/cdh.png); overflow: hidden;}
+#section1 .nav-nr-2 {margin: 0 auto; position: relative; left: -100px; transition: 1.6s;}
+#section1 .nav-nr-2 ul li {font-size: 18px; width: 150px; text-align: center; line-height: 150px; transition: 1s;}
+#section1 .nav-nr-2 #a{position: relative; right: -150px; transition: 1.6s;}
+#section1 .nav-nr-2 #b{position: relative; right: -150px; transition: 2.1s;}
+#section1 .nav-nr-2 #c{position: relative; right: -150px; transition: 2.6s;}
+#section1 .nav-nr-2 li:hover{background: #000;color: #ffff; transition: 1.6s;}
+#section1 .nav-nr-2 .jt {position: relative; left: 135px;  top: -70px; transition: 1s;}
+#section1 .nav-nr-2 .tx{position: relative; top: 35px; left: 150px; transition: 1.6s;}
+
+
+#hitokoto{position: relative; font-size: 26px; top: -300px;transition: 1.6s; opacity: 0;}
+#section0 #sj{position: relative; top: 350px; opacity: 0; transition: 3s;}
+
+.main-nr{width: 80%; height: 100vh;}
+.tp{background: #000; width: 40%; height: 50vh; float: left;}
+.js{background: #fff; width: 40%; height: 50vh; float: right;}
+
+button{width: 100px;height: 50px;background: #000; position: fixed; flex: auto;opacity: 0.1;}
+
+@media screen and (max-width:980px ) {
+ .v video{display: none;}    
+}
